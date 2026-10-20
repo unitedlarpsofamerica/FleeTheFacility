@@ -14,7 +14,7 @@ local CurrentPowerVal = ReplicatedStorage:FindFirstChild("CurrentPower")
 local PowerActiveVal = ReplicatedStorage:FindFirstChild("PowerActive")
 
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/unitedlarpsofamerica/FleeTheFacility/refs/heads/main/Library.lua"))()
-library.title = "stalker.cc"
+library.title = "https://discord.gg/DmrXTtw9UK"
 
 local Notifier = library:InitNotifications()
 local Window = library:Init(Enum.KeyCode.LeftAlt)
