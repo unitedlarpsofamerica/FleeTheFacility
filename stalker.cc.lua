@@ -13,7 +13,7 @@ local RemoteEvent = ReplicatedStorage:WaitForChild("RemoteEvent")
 local CurrentPowerVal = ReplicatedStorage:FindFirstChild("CurrentPower")
 local PowerActiveVal = ReplicatedStorage:FindFirstChild("PowerActive")
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/unitedlarpsofamerica/FleeTheFacility/refs/heads/main/Library.lua"))()
+local library = loadstring(game:HttpGet("https://pastebin.com/raw/WMpvdEDV"))()
 library.title = "https://discord.gg/DmrXTtw9UK"
 
 local Notifier = library:InitNotifications()
